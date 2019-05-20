@@ -24,7 +24,7 @@ public class PersonaModel extends BaseEntity {
     @Column(name = "telephone")
     @NotEmpty
     @Digits(fraction = 0, integer = 10)
-	private int edad;
+	private String edad;
 	
 	
 	public String getNombre() {
@@ -39,10 +39,10 @@ public class PersonaModel extends BaseEntity {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
-	public int getEdad() {
+	public String getEdad() {
 		return edad;
 	}
-	public void setEdad(int edad) {
+	public void setEdad(String edad) {
 		this.edad = edad;
 	}
 	

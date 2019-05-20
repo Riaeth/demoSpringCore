@@ -4,7 +4,7 @@ package com.example.demo.dto;
 public class PersonaDto {
 	private String nombre;
 	private String apellido;
-	private int edad;
+	private String edad;
 	
 	
 	public String getNombre() {
@@ -19,10 +19,10 @@ public class PersonaDto {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
-	public int getEdad() {
+	public String getEdad() {
 		return edad;
 	}
-	public void setEdad(int edad) {
+	public void setEdad(String edad) {
 		this.edad = edad;
 	}
 	
