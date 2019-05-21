@@ -25,7 +25,7 @@ public class PersonaServiceImpl implements PersonaService{
 			persona=new PersonaDto();
 			persona.setNombre(personaModel.getNombre());
 			persona.setApellido(personaModel.getApellido());
-			persona.setEdad(personaModel.getEdad());
+			persona.setTlf(personaModel.getEdad());
 			dtos.add(persona);
 		}
 		return dtos;
